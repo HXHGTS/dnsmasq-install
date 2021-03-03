@@ -4,11 +4,7 @@ wget https://github.com/pymumu/smartdns/releases/download/Release33/smartdns.1.2
 
 tar zxf smartdns.1.2020.09.08-2235.x86_64-linux-all.tar.gz
 
-cd smartdns
-
-chmod +x ./install
-
-./install -i
+cd smartdns && chmod +x ./install && ./install -i
 
 curl https://cdn.jsdelivr.net/gh/HXHGTS/dnsmasq-install/smartdns.conf > /etc/smartdns/smartdns.conf
 
