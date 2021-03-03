@@ -2,7 +2,7 @@
 
 echo 正在安装dnsmasq. . .
 
-yum install dnsmasq -y
+yum install bind-utils dnsmasq -y
 
 echo 正在配置dnsmasq. . .
 
