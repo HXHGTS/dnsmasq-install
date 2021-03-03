@@ -16,3 +16,4 @@ systemctl enable smartdns
 
 systemctl start smartdns
 
+exit 0
